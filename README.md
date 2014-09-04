@@ -5,15 +5,15 @@ doxy - Dynamic Upgrade Proxy for Docker
 
 ### 1. Install Go
 
-The Go distribution and the Go tools can be downloaded from (https://golang.org/doc/install)[https://golang.org/doc/install]
+The Go distribution and the Go tools can be downloaded from [https://golang.org/doc/install](https://golang.org/doc/install)
 
 ### 2. Install Git
 
-Git can be installed from (http://git-scm.com/downloads)[http://git-scm.com/downloads]
+Git can be installed from [http://git-scm.com/downloads](http://git-scm.com/downloads)
 
 ### 3. Install Docker
 
-Docker can be installed from (https://docs.docker.com/installation/#installation)[https://docs.docker.com/installation/#installation]
+Docker can be installed from [https://docs.docker.com/installation/#installation](https://docs.docker.com/installation/#installation)
 
 After Docker installation to ensure that the Docker daemon listens on a TCP socket and the proxy can connect to it, the following two commands should be executed:
 
