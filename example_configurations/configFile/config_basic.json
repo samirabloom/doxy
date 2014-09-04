@@ -1,4 +1,10 @@
 {
+    "proxy": {
+        "port": 1235
+    },
+    "configService": {
+        "port": 9090
+    },
     "cluster": {
         "servers": [
             {
