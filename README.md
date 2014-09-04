@@ -29,7 +29,7 @@ The proxy can be installed in two simple steps as follows:
 
 ```bash
 git clone https://github.com/samirabloom/doxy
-
+cd doxy
 make
 ```
 
@@ -40,7 +40,7 @@ The above steps install the proxy to the PATH by adding it to the `/usr/local/bi
 The proxy can be run from the command line with the following options:
 
 ```bash
-Usage of proxy:
+Usage of doxy:
   -configFile="./config.json":  Set the location of the configuration file
   that should contain configuration to start the proxy,
   for example:
@@ -99,7 +99,7 @@ Usage of proxy:
 For example the following command will run the proxy in the `INFO` log level and uses a file called `example_configurations/configFile/config_basic.json` for its configuration.
 
 ```bash
-proxy -logLevel=INFO -configFile= "example_configurations/configFile/config_basic.json"
+doxy -logLevel=INFO -configFile="example_configurations/configFile/config_basic.json"
 ```
 
 # REST API
