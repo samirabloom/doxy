@@ -48,7 +48,7 @@ dependencies:
 	go get -v github.com/franela/goreq
 
 build: clean dependencies
-	$(FLAGS) go build -v -o doxy ./src/doxy.go
+	$(FLAGS) go build -v -o doxy ./doxy.go
 
 count:
 	find . -name "*.go" -print0 | xargs -0 wc -l

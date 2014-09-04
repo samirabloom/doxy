@@ -1,7 +1,7 @@
 package main
 
 import (
-	proxy "proxy"
+	"proxy"
 )
 
 func main() {
