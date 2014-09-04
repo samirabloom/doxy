@@ -1,0 +1,15 @@
+{
+    "cluster": {
+        "servers": [
+            {
+                "hostname": "0.0.0.0",
+                "port": 1054
+            },
+            {
+                "hostname": "0.0.0.0",
+                "port": 1055
+            }
+        ],
+        "version": "2.0"
+    }
+}

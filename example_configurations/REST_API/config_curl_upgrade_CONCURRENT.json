@@ -4,9 +4,13 @@
             {
                 "hostname": "0.0.0.0",
                 "port": 1054
+            },
+            {
+                "hostname": "0.0.0.0",
+                "port": 1055
             }
         ],
-        "version": "3.9.2",
+        "version": "2.0",
         "upgradeTransition": {
             "mode": "CONCURRENT"
         }

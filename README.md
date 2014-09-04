@@ -96,10 +96,10 @@ Usage of proxy:
   -h: Displays this message
 ```
 
-For example the following command will run the proxy in the `INFO` log level and uses a file called `./config.json` for its configuration.
+For example the following command will run the proxy in the `INFO` log level and uses a file called `example_configurations/configFile/config_basic.json` for its configuration.
 
 ```bash
-$ proxy -logLevel=INFO -configFile= "config/config_script.json"
+proxy -logLevel=INFO -configFile= "example_configurations/configFile/config_basic.json"
 ```
 
 # REST API
